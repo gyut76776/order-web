@@ -4,7 +4,7 @@ import { AdminProvider } from "./context/AdminContext";
 
 import UserLayout from "./layouts/UserLayout";
 import AdminLayout from "./layouts/AdminLayout";
-import AdminRoute from "./admin/routes/AdminRoute";
+import AdminRoute from "./admin/routes/adminRoute";
 import Pesanan from "./Admin/pages/Pesanan";
 import Menu from "./Admin/pages/Menu";
 import Pelanggan from "./Admin/pages/Pelanggan";
