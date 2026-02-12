@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import { AdminProvider } from "./context/AdminContext";
 
-import UserLayout from "./Layouts/UserLayout";
+import UserLayout from "./layouts/UserLayout";
 import AdminLayout from "./Layouts/AdminLayout";
 import AdminRoute from "./Admin/routes/AdminRoute";
 import Pesanan from "./Admin/pages/Pesanan";
