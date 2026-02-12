@@ -3,7 +3,7 @@ import { CartProvider } from "./context/CartContext";
 import { AdminProvider } from "./context/AdminContext";
 
 import UserLayout from "./layouts/UserLayout";
-import AdminLayout from "./Layouts/AdminLayout";
+import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./Admin/routes/AdminRoute";
 import Pesanan from "./Admin/pages/Pesanan";
 import Menu from "./Admin/pages/Menu";
