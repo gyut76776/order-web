@@ -6,13 +6,13 @@ import UserLayout from "./layouts/UserLayout";
 import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./Admin/routes/AdminRoute";
 
-import Pesanan from "./Admin/pages/Pesanan";
-import Menu from "./Admin/pages/menu";
-import Pelanggan from "./Admin/pages/Pelanggan";
-import Barista from "./Admin/pages/Barista";
-import Kitchen from "./Admin/pages/Kitchen";
-import Login from "./Admin/pages/Login";
-import AdminDashboard from "./Admin/pages/Dashboard";
+import Barista from "./Admin/pages/Barista.jsx";
+import Kitchen from "./Admin/pages/Kitchen.jsx";
+import Menu from "./Admin/pages/Menu.jsx";
+import Pesanan from "./Admin/pages/Pesanan.jsx";
+import Pelanggan from "./Admin/pages/Pelanggan.jsx";
+import Login from "./Admin/pages/Login.jsx";
+import AdminDashboard from "./Admin/pages/Dashboard.jsx";
 
 import Home from "./pages/Home";
 import MenuPages from "./pages/MenuPages";
