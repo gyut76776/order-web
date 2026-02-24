@@ -7,9 +7,9 @@ import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./Admin/routes/AdminRoute";
 
 import Pesanan from "./Admin/pages/Pesanan";
-import Menu from "./Admin/pages/Menu";
+import Menu from "./Admin/pages/menu";
 import Pelanggan from "./Admin/pages/Pelanggan";
-import Barista from "./Admin/pages/barista";
+import Barista from "./Admin/pages/Barista";
 import Kitchen from "./Admin/pages/Kitchen";
 import Login from "./Admin/pages/Login";
 import AdminDashboard from "./Admin/pages/Dashboard";
