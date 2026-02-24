@@ -14,11 +14,11 @@ import Pelanggan from "./Admin/pages/Pelanggan.jsx";
 import Login from "./Admin/pages/Login.jsx";
 import AdminDashboard from "./Admin/pages/Dashboard.jsx";
 
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home.jsx";
 import MenuPages from "./pages/MenuPages.jsx";
 import CartPage from "./pages/CartPage.jsx";
 import PaymentPage from "./pages/PaymentPage.jsx";
-import QueuePage from "./pages/QueuePages.jsx";
+import QueuePages from "./pages/QueuePages.jsx";
 import OrderInfoPage from "./pages/OrderInfoPage.jsx";
 
 
@@ -34,7 +34,7 @@ export default function App() {
             <Route path="/menu/:id" element={<MenuPages />} />
             <Route path="/cart" element={<CartPage />} />
             <Route path="/payment" element={<PaymentPage />} />
-            <Route path="/queue" element={<QueuePage />} />
+            <Route path="/queue" element={<QueuePages />} />
             <Route path="/order/:orderId" element={<OrderInfoPage />} />
           </Route>
 
