@@ -5,21 +5,20 @@ import { AdminProvider } from "./context/AdminContext";
 import UserLayout from "./layouts/UserLayout";
 import AdminLayout from "./layouts/AdminLayout";
 import AdminRoute from "./Admin/routes/AdminRoute";
+
 import Pesanan from "./Admin/pages/Pesanan";
 import Menu from "./Admin/pages/Menu";
 import Pelanggan from "./Admin/pages/Pelanggan";
-import Barista from "./Admin/pages/barista";
-import Kitchen from "./Admin/pages/kitchen";
-
-
+import Barista from "./Admin/pages/Barista";
+import Kitchen from "./Admin/pages/Kitchen";
 import Login from "./Admin/pages/Login";
 import AdminDashboard from "./Admin/pages/Dashboard";
 
-import Home from "./pages/home";
-import MenuPages from "./pages/menuPages";
+import Home from "./pages/Home";
+import MenuPages from "./pages/MenuPages";
 import CartPage from "./pages/CartPage";
-import PaymentPage from "./pages/paymentPage";
-import QueuePage from "./pages/queuePages";
+import PaymentPage from "./pages/PaymentPage";
+import QueuePage from "./pages/QueuePages";
 import OrderInfoPage from "./pages/OrderInfoPage";
 
 
