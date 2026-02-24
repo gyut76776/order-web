@@ -4,8 +4,8 @@ import AdminDashboard from "../Admin/pages/Dashboard";
 import Pesanan from "../Admin/pages/Pesanan";
 import Menu from "../Admin/pages/Menu";
 import Pelanggan from "../Admin/pages/Pelanggan";
-import Barista from "../Admin/pages/barista";
-import Kitchen from "../Admin/pages/kitchen";
+import Barista from "../Admin/pages/Barista";
+import Kitchen from "../Admin/pages/Kitchen";
 
 export default function AdminLayout() {
   const [activePage, setActivePage] = useState("dashboard");
