@@ -14,7 +14,7 @@ import Pelanggan from "./Admin/pages/Pelanggan.jsx";
 import Login from "./Admin/pages/Login.jsx";
 import AdminDashboard from "./Admin/pages/Dashboard.jsx";
 
-import Home from "./pages/Home.jsx";
+import Home from "./pages/home.jsx";
 import MenuPages from "./pages/MenuPages.jsx";
 import CartPage from "./pages/CartPage.jsx";
 import PaymentPage from "./pages/PaymentPage.jsx";
