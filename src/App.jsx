@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import { AdminProvider } from "./context/AdminContext";
 
-import UserLayout from "./layouts/UserLayout";
-import AdminLayout from "./layouts/AdminLayout";
-import AdminRoute from "./Admin/routes/AdminRoute";
+import UserLayout from "./layouts/UserLayout.jsx";
+import AdminLayout from "./layouts/AdminLayout.jsx";
+import AdminRoute from "./Admin/routes/AdminRoute.jsx";
 
 import Barista from "./Admin/pages/Barista.jsx";
 import Kitchen from "./Admin/pages/Kitchen.jsx";
@@ -14,12 +14,12 @@ import Pelanggan from "./Admin/pages/Pelanggan.jsx";
 import Login from "./Admin/pages/Login.jsx";
 import AdminDashboard from "./Admin/pages/Dashboard.jsx";
 
-import Home from "./pages/Home";
-import MenuPages from "./pages/MenuPages";
-import CartPage from "./pages/CartPage";
-import PaymentPage from "./pages/PaymentPage";
-import QueuePage from "./pages/QueuePages";
-import OrderInfoPage from "./pages/OrderInfoPage";
+import Home from "./pages/Home.jsx";
+import MenuPages from "./pages/MenuPages.jsx";
+import CartPage from "./pages/CartPage.jsx";
+import PaymentPage from "./pages/PaymentPage.jsx";
+import QueuePage from "./pages/QueuePages.jsx";
+import OrderInfoPage from "./pages/OrderInfoPage.jsx";
 
 
 export default function App() {
